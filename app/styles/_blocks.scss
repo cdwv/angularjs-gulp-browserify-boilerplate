@@ -1,0 +1,12 @@
+ul.blocks {
+  display: block;
+  width: 100%;
+  background: pink;
+  padding: 0;
+}
+
+ul.blocks li {
+  display: inline-block;
+  border: solid 1px white;
+  margin: 5px;
+}
