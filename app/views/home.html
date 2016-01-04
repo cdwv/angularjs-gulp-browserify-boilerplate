@@ -1,7 +1,22 @@
+
 <h1 class="heading -large">{{ home.title | ExampleFilter }}</h1>
 
-<h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
+<!-- <h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
 
 <img src="images/angular.png" height="100" example-directive />
 <img src="images/gulp.png" height="100" />
 <img src="images/browserify.png" height="100" />
+ -->
+ <button ng-click="home.toggleCycle()">{{ home.cycle ? 'Disable cycle' : 'Enable cycle' }}</button>
+
+<h3>Lokacje</h3>
+<ul>
+<li><a ui-sref="Home">Home</a></li>
+<li><a ui-sref="Home.Dragon">Home\Dragon</a></li>
+<li><a ui-sref="Home.Minion">Home\Minion</a></li>
+<li><a ui-sref="Home.Download">Home\Download</a></li>
+</ul>
+
+<div ui-view>
+    <h3>Location placeholder</h3>
+</div>

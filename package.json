@@ -76,5 +76,13 @@
     "test": "karma start test/karma.conf.js",
     "preprotractor": "webdriver-manager update",
     "protractor": "protractor test/protractor.conf.js"
+  },
+  "dependencies": {
+    "angular-sanitize": "^1.4.8",
+    "compass": "^0.1.1",
+    "compass-mixins": "^0.12.7",
+    "compass-sass-mixins": "^0.12.7",
+    "jquery": "^2.1.4",
+    "jquery-browserify": "^1.8.1"
   }
 }

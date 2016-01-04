@@ -1,9 +1,12 @@
 'use strict';
 
+import 'jquery-browserify';
+
 import angular from 'angular';
 
 // angular modules
 import 'angular-ui-router';
+import 'angular-sanitize';
 import './templates';
 import './filters';
 import './controllers';
@@ -12,6 +15,7 @@ import './directives';
 
 // create and bootstrap application
 const requires = [
+  'ngSanitize',
   'ui.router',
   'templates',
   'app.filters',

@@ -1,3 +1,9 @@
+
+### DO NOT USE
+
+This code is faulty by design, and means to cover as many bad practices as possible. Based on legit boilerplate angularjs-gulp-browserify-boilerplate. Use with node 5.1.
+
+
 angularjs-gulp-browserify-boilerplate
 =====================================
 [![devDependency Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/dev-status.svg)](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate#info=devDependencies)

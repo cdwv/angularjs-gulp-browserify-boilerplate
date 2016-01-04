@@ -11,6 +11,24 @@ function OnConfig($stateProvider, $locationProvider, $urlRouterProvider) {
     controller: 'ExampleCtrl as home',
     templateUrl: 'home.html',
     title: 'Home'
+  })
+  .state('Home.Dragon', {
+    url: 'dragon/',
+    controller: 'DragonCtrl as dragon',
+    templateUrl: 'dragon.html',
+    title: 'Dragon'
+  })
+  .state('Home.Minion', {
+    url: 'minion/',
+    controller: 'MinionCtrl as minion',
+    templateUrl: 'minion.html',
+    title: 'Minion'
+  })
+  .state('Home.Download', {
+    url: 'download/',
+    controller: 'DownloadCtrl as download',
+    templateUrl: 'download.html',
+    title: 'Download'
   });
 
   $urlRouterProvider.otherwise('/');
