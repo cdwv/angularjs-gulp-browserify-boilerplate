@@ -42,7 +42,7 @@ function buildScript(file) {
   }
 
   const transforms = [
-    { 'name':babelify, 'options': {}},
+    { 'name':babelify, 'options': {}, 'presets': ['es2015']},
     { 'name':debowerify, 'options': {}},
     { 'name':ngAnnotate, 'options': {}},
     { 'name':'brfs', 'options': {}},

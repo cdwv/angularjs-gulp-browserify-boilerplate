@@ -13,4 +13,5 @@
 
 global.isProd = false;
 
+require('babel-core/register')
 require('./gulp');
