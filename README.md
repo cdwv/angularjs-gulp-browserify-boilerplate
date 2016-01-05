@@ -3,6 +3,12 @@
 
 This code is faulty by design, and means to cover as many bad practices as possible. Based on legit boilerplate angularjs-gulp-browserify-boilerplate. Use with node 5.1.
 
+To install nodejs:
+
+```
+curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 
 angularjs-gulp-browserify-boilerplate
 =====================================
